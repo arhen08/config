@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "config_name": "ErrorsAlert_Config",
+    "version": "1.0.0",
+    "last_updated": "2026-06-23",
+    "description": "Config for Errors Alert tab: form submission zero-check and error percentage threshold alerts per journey",
+    "timezone": "Asia/Kolkata"
+  },
+
+  "time_range": {
+    "start_hour_ist": 8,
+    "_comment": "Cumulative data is fetched from start_hour_ist (8 AM IST) up to (current IST hour - 1). The check only runs when current IST hour > start_hour_ist, i.e. from 9 AM onward."
+  },
+
+  "metrics": {
+    "form_submission_metric_id": "metrics/event83",
+    "error_percentage_metric_id": "REPLACE_WITH_YOUR_CALCULATED_METRIC_ID"
+  },
+
+  "form_submission_exclusions": [
+    "UNIFIED_CC_JOURNEY",
+    "UNIFIED_INSTA_SAVINGS_JOURNEY"
+  ],
+
+  "default_error_percentage_threshold": 5.0,
+
+  "journey_error_thresholds": {
+    "PA_CC_JOURNEY": 30.0,
+    "PL_NTB_JOURNEY": 40.0,
+    "ETBWO_CC_JOURNEY": 40.0,
+    "_comment": "Journey names must match exactly as they appear in Adobe Analytics (evar83). Any journey not listed here uses default_error_percentage_threshold."
+  }
+}

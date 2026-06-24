@@ -44,7 +44,6 @@
   "pravesh@adobe.com",
   "asimc@adobe.com"
 ],
-  "metrics": {  "error_breakdown_metric_id": "cm200002377_6a3bb4fedbbeee13840ed79d" },
 "top_n_errors": 5,
 "error_pct_increase_threshold": 10,
 

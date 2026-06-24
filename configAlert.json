@@ -9,8 +9,17 @@
 
   "time_range": {
     "start_hour_ist": 8,
+    "end_hour_ist": 22,
     "_comment": "Cumulative data is fetched from start_hour_ist (8 AM IST) up to (current IST hour - 1). The check only runs when current IST hour > start_hour_ist, i.e. from 9 AM onward."
   },
+  "error_check_exclusions": [
+  "ETB_BALANCE_TRANSFER_ON_EMI",
+  "FD_BACKED_CC_JOURNEY",
+  "EEG_LOAN_LEAD_JOURNEY",
+  "HOME_LOAN_LEAD_JOURNEY",
+  "TradeXpress_LOAN_LEAD_JOURNEY",
+  "PayLater_On_UPI_Journey"
+]
 
   "metrics": {
     "form_submission_metric_id": "metrics/event83",

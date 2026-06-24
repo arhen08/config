@@ -41,8 +41,7 @@
     "EEG_LOAN_LEAD_JOURNEY"
   ],
 "alert_email_recipients": [
-  "pravesh@adobe.com",
-  "asimc@adobe.com"
+  "pravesh@adobe.com"
 ],
 "top_n_errors": 5,
 "error_pct_increase_threshold": 10,

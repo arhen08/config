@@ -41,8 +41,7 @@
   ],
 "alert_email_recipients": [
   "pravesh@adobe.com",
-  "asimc@adobe.com",
-  "shikhars@adobe.com"
+  "asimc@adobe.com"
 ],
   "default_error_percentage_threshold": 5.0,
 

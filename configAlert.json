@@ -39,7 +39,11 @@
     "PayLater_On_UPI_Journey",
     "EEG_LOAN_LEAD_JOURNEY"
   ],
-
+"alert_email_recipients": [
+  "pravesh@adobe.com",
+  "asimc@adobe.com",
+  "shikhars@adobe.com"
+],
   "default_error_percentage_threshold": 5.0,
 
   "journey_error_thresholds": {

@@ -14,7 +14,6 @@
   },
   "error_check_exclusions": [
   "ETB_BALANCE_TRANSFER_ON_EMI",
-  "FD_BACKED_CC_JOURNEY",
   "EEG_LOAN_LEAD_JOURNEY",
   "HOME_LOAN_LEAD_JOURNEY",
   "TradeXpress_LOAN_LEAD_JOURNEY",

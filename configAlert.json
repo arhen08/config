@@ -19,8 +19,7 @@
   "HOME_LOAN_LEAD_JOURNEY",
   "TradeXpress_LOAN_LEAD_JOURNEY",
   "PayLater_On_UPI_Journey"
-]
-
+],
   "metrics": {
     "form_submission_metric_id": "metrics/event83",
     "error_percentage_metric_id": "cm200002377_6a3b98e8dbbeee13840ed78e",

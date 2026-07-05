@@ -24,9 +24,10 @@
   "metrics": {
     "form_submission_metric_id": "metrics/event83",
     "error_percentage_metric_id": "cm200002377_6a3b98e8dbbeee13840ed78e",
-    "error_breakdown_metric_id": "cm200002377_6a3bb4fedbbeee13840ed79d"
+    "error_breakdown_metric_id": "cm200002377_6a3bb4fedbbeee13840ed79d",
+    "unspecified_error_metric_id": "cm200002377_6a4a7396cd28b051011db74d"
   },
-
+  "default_unspecified_error_threshold": 5.0,
   "form_submission_exclusions": [
     "UNIFIED_CC_JOURNEY",
     "XPRESSWAY_CUSTOMER_JOURNEY",

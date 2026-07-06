@@ -9,7 +9,7 @@
 
   "time_range": {
     "start_hour_ist": 6,
-    "end_hour_ist": 22,
+    "end_hour_ist": 24,
     "data_lag_minutes": 80,
     "fetch_minute": 20,
     "_comment": "Cumulative data is fetched from start_hour_ist (8 AM IST) up to (current IST hour - 1). The check only runs when current IST hour > start_hour_ist, i.e. from 9 AM onward."

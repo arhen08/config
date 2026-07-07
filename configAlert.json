@@ -25,7 +25,8 @@
     "form_submission_metric_id": "metrics/event83",
     "error_percentage_metric_id": "cm200002377_6a4a7374cd28b051011db74c",
     "error_breakdown_metric_id": "cm200002377_6a3bb4fedbbeee13840ed79d",
-    "unspecified_error_metric_id": "cm200002377_6a4a7396cd28b051011db74d"
+    "unspecified_error_metric_id": "cm200002377_6a4a7396cd28b051011db74d",
+    "unspecified_error_breakdown_metric_id": "cm200002377_6a4cfcda7e663d347c7cc0dd"
   },
   "default_unspecified_error_threshold": 5.0,
 "journey_unspecified_thresholds": {

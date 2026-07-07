@@ -125,7 +125,7 @@
   "arnavsingh@adobe.com",
   "bhushann@adobe.com"
 ],
-"top_n_errors": 5,
+"top_n_errors": 10,
 "error_pct_increase_threshold": 10,
 
   "default_error_percentage_threshold": 5.0,

@@ -68,8 +68,7 @@
   "TradeXpress_LOAN_LEAD_JOURNEY": 5,
   "BL_ASSISTED_JOURNEY": 5,
   "ETB_INSTA_SAVINGS_JOURNEY_VRM": 5,
-  "PayLater_On_UPI_Journey": 5,
-  
+  "PayLater_On_UPI_Journey": 5  
 },
   "time_range": {
     "start_hour_ist": 6,
